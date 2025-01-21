@@ -152,7 +152,7 @@ a {
 
 
 #fourth{
-    padding:100px;
+    padding:90px;
     display: flex;
     justify-content: center;
 }
@@ -160,7 +160,7 @@ a {
 .box{
     background-color: #3882F6;
     color:#F9FAF8;
-    padding:30px 100px;
+    padding:40px 100px;
     border-radius: 8px;
     display: flex;
     gap: 80px;
@@ -190,4 +190,13 @@ a {
     background-color: #F9FAF8;
     color:#3882F6;
     cursor: pointer;
+}
+
+.copyright{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding:50px; 
+    font-weight: 200;
 }
