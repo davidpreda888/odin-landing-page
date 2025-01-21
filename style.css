@@ -22,7 +22,7 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 0 10px; 
+    padding: 0 14px; 
 }
 
 .logo{
@@ -148,4 +148,46 @@ a {
     align-self:flex-end;
     margin-right: 30px;
     font-style: italic;
+}
+
+
+#fourth{
+    padding:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding:30px 100px;
+    border-radius: 8px;
+    display: flex;
+    gap: 80px;
+}
+
+.action{
+    font-size:24px;
+    font-weight: 500;
+}
+
+.product{
+    color:#E5E7EB;
+    font-weight: 200;
+}
+
+.food{
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 16px
+}
+
+.food:hover{
+    background-color: #F9FAF8;
+    color:#3882F6;
+    cursor: pointer;
 }
