@@ -11,11 +11,6 @@ body {
     color: #F9FAF8;
 }
 
-.header{
-    display: flex;
-    justify-content: center;
-}
-
 ul {
     list-style-type: none;
     display: flex;  
@@ -41,6 +36,7 @@ a {
 }
 
 
+
 .doctor{
     font-size: 48px;
     font-weight: 900;
@@ -54,7 +50,7 @@ a {
 
 .appointment{
     background-color: #3882F6;
-    padding: 8px;
+    padding: 8px 16px;
     color: white;
     width: 200px;
     min-width: 100px;
@@ -67,14 +63,16 @@ a {
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex-shrink: 1;
 }
 
 .momo{
     display: flex;
     align-self: center;
+    flex-shrink: 1;
 }
 
-button:hover {
+.appointment:hover {
     background-color: #F9FAF8;
     color:#3882F6;
     cursor: pointer;
